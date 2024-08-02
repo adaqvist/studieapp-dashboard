@@ -1,0 +1,27 @@
+/* styles/Layout.module.css */
+.container {
+  display: flex;
+  min-height: 100vh;
+  background-color: #f0f0f5;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.content {
+  flex-grow: 1;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  margin: 20px 20px 20px 0;
+}
+
+.grid {
+  display: grid;
+  gap: 20px;
+  padding: 20px;
+}
